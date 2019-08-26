@@ -1,0 +1,40 @@
+
+
+button:hover {
+    border: 1px solid #000000;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.deactivated {
+    color: #dddddd;
+    cursor: auto;
+}
+
+button.deactivated:hover {
+    border: none;
+    color: #dddddd;
+}
+
+#new-game-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 120px;
+    height: 40px;
+}
+#reset-game-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 120px;
+    height: 40px;
+}
+
+.letter-button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 100%;
+    margin: 4px; 
+}

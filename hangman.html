@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h2>Hangman</h2>
+        <input type="radio" id="diff0" name="difficulty" value="easy"> easy<br>
+        <input type="radio" id="diff1"name="difficulty" value="medium"> medium<br>
+        <input type="radio" id="diff2"name="difficulty" value="hard"> hard<br>
+        <button id="new-game-button">get word</button>
+        <button id="reset-game-button">reset game</button>
+        <br>
+        
+        <div id="hangman"></div>
+        <canvas id="stickman"></canvas>
+    </div>
+    <script type="text/javascript" src="hangman.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</body>
+</html>
